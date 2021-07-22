@@ -123,6 +123,12 @@ input.btn.btn-primary.w-100 {
     margin-right: 20px;
     align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .currentweather {
+        width:80%;
+    }
+}
 .row {
     display: flex;
 }
