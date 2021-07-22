@@ -9,6 +9,9 @@ h1#city {
 }
 .small, small {
     width: 100%;
+   text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px
 }
 
 .col.col-lg-2 {
