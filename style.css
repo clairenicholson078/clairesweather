@@ -54,6 +54,7 @@ button#faveplace {
   border-width: 1px;
   border-color: #ededed;
     margin:25px;
+        padding-bottom: 10px;
 }
 .col {
   border-style: solid;
