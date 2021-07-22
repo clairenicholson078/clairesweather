@@ -17,6 +17,9 @@ div#forecast{
     border-width: 1px;
     border-color: #fff;
     padding: 11px;
+    
+    background-color: #d9d9d9;
+
 }
 
 .weather-forecast-date {
@@ -41,9 +44,11 @@ span.weather-forecast-temperature-min {
 }
 .float-left {
     float: left!important;
+    display: block;
+    margin: 0 0 auto;
     width: 100%;
+    max-width: 100%;
 }
-
 button#faveplace {
     border: none;
 }
@@ -98,14 +103,14 @@ input.btn.btn-primary.w-100 {
 }
 
 .currentweather {
-  width:20%;
-  float:right;
-  display:flex;
-  flex-wrap:wrap;
-  background-color: white;
-  margin-top:25px;
-  margin-right:20px;
-  
+    min-width: 20%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 25px;
+    margin-right: 20px;
+    align-items: center;
 }
 .day {
   border: none;
