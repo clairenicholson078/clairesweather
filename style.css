@@ -26,6 +26,10 @@ img {
   background-repeat: no-repeat;
   background-color: #ededed;
   text-align: right;
+  float:left;
+  width:75%;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .currentweather {
