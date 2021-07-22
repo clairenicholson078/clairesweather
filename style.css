@@ -27,7 +27,7 @@ button#faveplace {
 }
 
 .col.col-lg-2 {
-      min-width: 75%;
+      min-width: 80%;
     border-style: solid;
     border-width: 1px;
     border-color: #ededed;
@@ -79,9 +79,6 @@ width: 20%;
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-    margin-left: 0px;
-    margin-top: 25px;
-    margin-right: 25px;
 }
   
 }
