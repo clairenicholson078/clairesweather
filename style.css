@@ -1,5 +1,5 @@
 .col.col-lg-2 {
-  min-width: 80%;
+  min-width: 100%;
   border-style: solid;
   border-width: 1px;
   border-color: #ededed;
@@ -30,6 +30,11 @@ img {
 
 .currentweather {
   margin-top: 2%;
+  width:45%;
+  float:right;
+  display:flex;
+  flex-wrap:wrap;
+  
 }
 .day {
   border: none;
