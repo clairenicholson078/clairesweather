@@ -2,6 +2,7 @@ h1#city {
     width: 100%;
     text-align: center;
     align-items: center;
+    background-color:#fff;
   
 }
 .clearfix.weather-temperature{
@@ -40,8 +41,15 @@ p {
   text-align: center;
   background-color: #d9d9d9;
   font-family: "Montserrat", sans-serif;
+        background-color:#fff;
 
 }
+ul{
+        background-color:#fff;
+}
+li{
+        background-color:#fff;
+]
 img {
   display: block;
   margin: 0 0 auto;
