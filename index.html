@@ -16,41 +16,18 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="col col-lg-2 weatherheader">
-    <div class="container">
-      <div class="row">
-        <div class="col col-lg-2  weatherheader">
-          <div class="headeritems"> <h1>Weather Check</h1><br> 
-            <h2> Real time weather where you are</h2><br>
-
-    <div class="container">
-      <div class="weather-app-wrapper">
-        <div class="weather-app">
-          <form id="search-form" class="mb-3">
-            <div class="row">
-              <div class="col-9">
-                <input
-                  type="search"
-                  placeholder="Type a city.."
-                  class="form-control"
-                  id="city-input"
-                  autocomplete="off"
-                />
-              </div>
-              <div class="col-3">
-                <input
-                  type="submit"
-                  value="Search"
-                  class="btn btn-primary w-100"
-                />
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-          
-          </div>
-          </div>
+    
+    <div class="col col-lg-2 weatherheader"> 
+      <div class="headeritems"> <h1>Weather Check</h1>
+        <br> <h2> Real time weather where you are</h2>
+        <br> <form> <label type="city"> Type the city you're in...</label>
+        <input type="yourcity" id="yourcity" name="city" value=""> 
+        <input type="submit" value="Submit"> </form> 
+        <button id="chooseCurrentLocation"> Use your current location </button> 
+      </div> 
+    </div>
+    
+  
           <div class="col  currentweather">
             <h1 id="city"></h1>
             <br>
