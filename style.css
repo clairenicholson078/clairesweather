@@ -1,6 +1,17 @@
 .col {
     flex: 1 0 0%;
 }
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .currentweather {
+          width:80%;
+      }
+}
+
 h1#city {
     width: 100%;
     text-align: center;
