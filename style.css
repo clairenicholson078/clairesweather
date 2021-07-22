@@ -7,6 +7,7 @@ h1#city {
 .clearfix.weather-temperature{
   width:100%;
 }
+
 .small, small {
     width: 100%;
    text-align: center;
@@ -43,7 +44,7 @@ img {
 
 .weatherheader {
   margin-top: 2%;
-  background-image: url("images/kidv2.png");
+  background-image: url("/kidv2.png");
   background-size: contain;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -56,11 +57,11 @@ img {
 }
 
 .currentweather {
-  margin-top: 2%;
   width:25%;
   float:right;
   display:flex;
   flex-wrap:wrap;
+  background-color: white;
   
 }
 .day {
