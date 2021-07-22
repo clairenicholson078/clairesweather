@@ -205,3 +205,10 @@ h3 {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
 }
+footer {
+    min-width: 100%;
+    background: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
