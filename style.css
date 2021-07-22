@@ -83,6 +83,7 @@ input.btn.btn-primary.w-100 {
     color: #fff;
     background-color: #df916b;
     border: none;
+    width: fit-content!important;
 }
 
 .headeritems{
