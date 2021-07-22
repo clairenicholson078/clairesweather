@@ -5,6 +5,19 @@ h1#city {
     background-color:#fff;
   
 }
+.favlocations {
+    font-family: "Montserrat", sans-serif;
+    width: 25%;
+    flex-wrap: wrap;
+    display: flex;
+}
+div#forecast{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    padding: 11px;
+}
+
 .weather-forecast-date {
     text-align: center;
 }
@@ -89,6 +102,7 @@ input.btn.btn-primary.w-100 {
   flex-wrap:wrap;
   background-color: white;
   margin-top:25px;
+  margin-right:20px;
   
 }
 .day {
@@ -173,6 +187,7 @@ ul {
 h3 {
   font-size: 20px;
   font-family: "Assistant", sans-serif;
+    text-align:center;
 }
 .favlocations {
   margin: 5%;
