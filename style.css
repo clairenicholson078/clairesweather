@@ -2,7 +2,6 @@ h1#city {
     width: 100%;
     text-align: center;
     align-items: center;
-    background-color:#fff;
   
 }
 .clearfix.weather-temperature{
@@ -19,20 +18,17 @@ h1#city {
     float: left!important;
     width: 100%;
 }
-p{
-    background-color:#fff;
 
 button#faveplace {
     border: none;
 }
 
 .col.col-lg-2 {
-      min-width: 75%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ededed;
-    margin-top: 25px;
-    margin-left: 25px;
+  min-width: 80%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ededed;
+    margin:25px;
 }
 .col {
   border-style: solid;
@@ -74,15 +70,11 @@ input.btn.btn-primary.w-100 {
 }
 
 .currentweather {
-width: 20%;
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    margin-left: 0px;
-    margin-top: 25px;
-    margin-right: 25px;
-}
+  width:20%;
+  float:right;
+  display:flex;
+  flex-wrap:wrap;
+  background-color: white;
   
 }
 .day {
