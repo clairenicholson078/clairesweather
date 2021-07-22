@@ -5,6 +5,16 @@ h1#city {
     background-color:#fff;
   
 }
+.weather-forecast-date {
+    text-align: center;
+}
+.weather-forecast-temperatures {
+    text-align: center;
+}
+span.weather-forecast-temperature-min {
+    opacity: 0.5;
+}
+
 .clearfix.weather-temperature{
   width:100%;
 }
