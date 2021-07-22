@@ -110,7 +110,6 @@ input.btn.btn-primary.w-100 {
 .currentweather {
     min-width: 20%;
     column-width: auto;
-    max-width:80%;
     float: right;
     display: flex;
     flex-wrap: wrap;
@@ -118,6 +117,9 @@ input.btn.btn-primary.w-100 {
     margin-top: 25px;
     margin-right: 20px;
     align-items: center;
+}
+.row {
+    display: flex;
 }
 .day {
   border: none;
