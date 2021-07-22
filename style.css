@@ -41,13 +41,15 @@ img {
   display: block;
   margin: 0 0 auto;
 }
-
-.weatherheader {
-  margin-top: 2%;
-  background-image: url("/kidv2.png");
+.headeritems{
+     background-image: url("/kidv2.png");
   background-size: contain;
   background-position-x: right;
   background-repeat: no-repeat;
+}
+
+.weatherheader {
+  margin-top: 2%;
   background-color: #ededed;
   text-align: right;
   float:left;
